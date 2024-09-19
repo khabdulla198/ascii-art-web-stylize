@@ -24,12 +24,15 @@ form {
     margin-top: 2rem;
 }
 textarea {
-    width: 100%;
+    padding-top: 0.5rem;
+    width: 70%;
     font-size: 1rem;
     border: none;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin-bottom:3px;
+    margin:auto;
+    display: block;
+    text-align: center;
     
 }
 .radio-group {
@@ -37,7 +40,8 @@ textarea {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .radio-option {
     display: flex;
@@ -47,10 +51,17 @@ textarea {
 input[type="radio"] {
     margin-right: 0.5rem;
 }
-#btn{
+button{
     width: 100px;
-    margin-top: 10px;
     height: 30px;
     text-align: center;
-    margin-left: 100px;
+    margin:auto;
+    display: block;
+}
+.output{
+    text-align: center;
+    color: black;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 1.5rem;
 }
