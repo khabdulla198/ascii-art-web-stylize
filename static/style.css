@@ -9,6 +9,12 @@ body {
     flex-direction: column;
     align-items: center;
     color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html{
+    height: 100%;
 }
 h1 {
     text-align: center;
