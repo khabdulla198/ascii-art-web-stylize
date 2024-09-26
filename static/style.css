@@ -71,3 +71,102 @@ button{
     width: 100%;
     margin-top: 1.5rem;
 }
+
+@media (max-width: 768px){/* tablet view yuh*/
+
+    h1{
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        letter-spacing: 2px;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    textarea {
+        padding-top: 0.2rem;
+        width: 50%;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin:auto;
+        display: block;
+        text-align: center;
+        
+    }
+    .radio-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .radio-option{
+        display: flex;
+       /* align-items: center;*/
+        justify-content: center;
+        letter-spacing: 2px;
+    }
+
+    textarea{
+    padding-top: 0.2rem;
+    width: 50%;
+    font-size: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin:auto;
+    display: block;
+    text-align: center;
+    }
+} 
+
+@media (max-width:400px){
+    h1{
+        text-align: center;
+        font-weight: 300;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        letter-spacing: 2px;
+        margin-top: 2rem;
+        font-size: 0.5rem;
+    }
+
+    textarea {
+        padding-top: 0.1rem;
+        width: 50%;
+        font-size: 0.5rem;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin:auto;
+        display: block;
+        text-align: center;
+    }
+
+    .radio-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .radio-option{
+        display: flex;
+       /* align-items: center;*/
+        justify-content: center;
+        letter-spacing: 1px;
+    }
+
+
+
+
+
+
+}
